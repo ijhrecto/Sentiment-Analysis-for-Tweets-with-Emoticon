@@ -26,7 +26,7 @@ Using the emoticon dataset I simulated, replace, and added utf-8 emoticons the d
   - ASCII emoticons and word emoticons were converted to utf-8 emoticons
   - emoticons were also randomly added by sentiment to balance the data
 
-# Sentiment Analysis
+# Sentiment Analysis Method
 I experimented with two methods that I think would be suitable for this task.
 ### First Method
   - This method extracts and separates the emoticon and texts from the input tweet.
