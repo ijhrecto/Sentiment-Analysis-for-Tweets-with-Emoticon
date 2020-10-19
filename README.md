@@ -13,11 +13,12 @@ Using the emoticon dataset I simulated, replace, and added utf-8 emoticons the d
 ### 1.6m tweet dataset
   - I downsized the 1.6m tweet dataset to 10k.
   - The name tags and links were also removed since most would not contribute to the value of the sentiment
+  - converted the sentiment values to 0 and 1
 ### emoticon dataset
   - The emoticon dataset although contains sentiment, the sentiment is formatted by voting value of the data acquirer.
   - It also contains 3 polarity (positive, neutral, negative)
   - to set the sentiment of the emoticon, we compare the values of the positive and negative, which ever is higher is set as the sentiment polarity
-  - we normalize the value to 1 and 0
+  - we normalize the value to 0 and 1
 ### 3 part tweet dataset
   - the formatting of the dataset is listing by column and contains 3 file, positive, negative, and neutral tweet list
   - We create a new data frame and list the dataset by row and the sentiment polarity depends on what file the tweets were taken from
