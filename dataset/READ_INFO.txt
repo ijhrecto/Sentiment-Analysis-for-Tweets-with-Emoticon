@@ -1,0 +1,17 @@
+*** the included ipynb uses only 1k_data_emoji_tweets_senti_posneg and 15_emoticon_data ***
+
+raw_data_tweets
+- downloaded tweets but without emojis cause it was cleaned to remove symbols
+- file separated by sentiment polarity
+
+1k_data_emoji_tweets_senti_posneg
+- tweets from raw_data_tweets but with converted text/tags to emojis and simulated emojis
+
+15_emoticon_data
+- emojis used on the 1k_data_emoji_tweets_senti_posneg
+
+Emoji_Sentiment_Data
+- raw emoji data, with sentiment polarity
+
+
+
